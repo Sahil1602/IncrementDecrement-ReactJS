@@ -1,0 +1,19 @@
+.btn{
+    padding: 12px 24px;
+    border: blueviolet groove 5px;
+    margin: 3px;
+    border-radius: 8px;
+    background-color:  rgb(228, 195, 231);
+  }
+  
+.btnWrap{
+  padding-left: 18px;
+}
+
+.num{
+  text-align: center;
+  width: 100%;
+  padding: 50px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
