@@ -4,6 +4,7 @@
     margin: 3px;
     border-radius: 8px;
     background-color:  rgb(228, 195, 231);
+    outline: none;
   }
   
 .btnWrap{
