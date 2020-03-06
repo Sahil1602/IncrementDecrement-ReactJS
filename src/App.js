@@ -12,27 +12,23 @@ class App extends React.Component {
   
 
   onCountInc =()=>{
-    if(this.state.count < 10){
-      const updated = this.state.count + 1;
-      this.setState({count: updated})
-      console.log('increment')
-    }
+    const updated = this.state.count + 1;
+    this.setState({count: updated})
+    console.log('increment')
     
   }
   onCountDec = () => {
-    if(this.state.count > 0){
-      const updated = this.state.count - 1;
-      this.setState({count: updated})
-      console.log('decrement')
-  
-    }
+    const updated = this.state.count - 1;
+    this.setState({count: updated})
+    console.log('decrement')
+
   }
 
-  // shouldComponentUpdate(nextProps, nextState){
-  //   if(nextState.count >= this.props.Minimum && nextState.count <= this.props.Maximum ){
-  //     return true;
-  //   }
-  // }
+  shouldComponentUpdate(nextProps, nextState){
+    if(nextState.count >= 0 && nextState.count <= 10 ){
+      return true;
+    }
+  }
 
   render(){
     return (

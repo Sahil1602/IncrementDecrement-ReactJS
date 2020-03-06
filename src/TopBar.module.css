@@ -1,6 +1,6 @@
 .topbar{
     /* background-color: goldenrod; */
-    background-image: linear-gradient(to top, gold, goldenrod);
+    background-image: linear-gradient(to top, gold, goldenrod); 
     color: white;
     position: fixed;
     width: 100%;
